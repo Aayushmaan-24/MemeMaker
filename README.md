@@ -59,53 +59,6 @@ bun dev
 5. **Preview**: See your meme rendered in real-time on the canvas
 6. **Download**: Click the "Download Meme" button to save your creation as a PNG file
 
-## Project Structure
-
-\`\`\`
-meme-generator/
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   └── page.tsx
-├── components/
-│   ├── ui/
-│   │   ├── button.tsx
-│   │   ├── card.tsx
-│   │   ├── input.tsx
-│   │   ├── label.tsx
-│   │   ├── scroll-area.tsx
-│   │   ├── tabs.tsx
-│   │   └── ...
-│   ├── meme-canvas.tsx
-│   ├── template-gallery.tsx
-│   ├── text-editor.tsx
-│   └── theme-provider.tsx
-├── data/
-│   └── meme-templates.ts
-├── lib/
-│   └── utils.ts
-├── public/
-│   └── templates/
-│       ├── drake.jpg
-│       ├── distracted-boyfriend.jpg
-│       └── ...
-└── package.json
-\`\`\`
-
-## Adding Real Meme Templates
-
-The app currently uses placeholder images. To add real meme templates:
-
-1. Download popular meme template images
-2. Save them in the `public/templates/` directory with these names:
-   - `drake.jpg`
-   - `distracted-boyfriend.jpg`
-   - `success-kid.jpg`
-   - `change-my-mind.jpg`
-   - `two-buttons.jpg`
-   - `expanding-brain.jpg`
-   - `woman-yelling.jpg`
-   - `thinking-guy.jpg`
 
 ## Key Features Explained
 
