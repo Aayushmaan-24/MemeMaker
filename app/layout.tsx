@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Meme Generator",
   description: "Create and share your own memes",
+  icons: {
+    icon: '/icon.png',
+  },
 }
 
 export default function RootLayout({
